@@ -703,13 +703,13 @@ $EndComp
 Wire Wire Line
 	4210 3150 4640 3150
 $Comp
-L Skanas_frekvences_noteiksana_amp:LM324N U1
+L Skanas_frekvences_noteiksana-rescue:LM324N-Skanas_frekvences_noteiksana_amp U1
 U 1 1 5CF05886
 P 4890 3050
 F 0 "U1" H 4990 3200 50  0000 L CNN
 F 1 "LM324N" H 4920 2880 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 4740 3050 50  0001 C CNN
-F 3 "" H 4740 3050 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2281534.pdf" H 4740 3050 50  0001 C CNN
 	1    4890 3050
 	1    0    0    -1  
 $EndComp

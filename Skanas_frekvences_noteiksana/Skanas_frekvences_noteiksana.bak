@@ -486,10 +486,10 @@ NoConn ~ 6900 4900
 NoConn ~ 6100 4900
 NoConn ~ 6200 4900
 $Comp
-L Connector:Conn_01x16_Female J4
+L Connector:Conn_01x16_Female J3
 U 1 1 5CCCF783
 P 6900 3750
-F 0 "J4" V 7090 3670 50  0000 L CNN
+F 0 "J3" V 7090 3670 50  0000 L CNN
 F 1 "Connector for LCD" V 6980 3350 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Vertical" H 6900 3750 50  0001 C CNN
 F 3 "~" H 6900 3750 50  0001 C CNN
@@ -703,7 +703,7 @@ $EndComp
 Wire Wire Line
 	4210 3150 4640 3150
 $Comp
-L Skanas_frekvences_noteiksana_amp:LM324N U1
+L Skanas_frekvences_noteiksana-rescue:LM324N-Skanas_frekvences_noteiksana_amp U1
 U 1 1 5CF05886
 P 4890 3050
 F 0 "U1" H 4990 3200 50  0000 L CNN

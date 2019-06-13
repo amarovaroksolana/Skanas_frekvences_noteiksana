@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source "C:\\Users\\amaro\\Documents\\Prakse_II\\Skanas_frekvences_noteiksana - Copy\\Skanas_frekvences_noteiksana\\Skanas_frekvences_noteiksana.sch")
-    (date "6/5/2019 18:22:26")
+    (source "C:\\Users\\amaro\\Documents\\Prakse_II\\Skanas_frekvences_noteiksana - Copy\\Skanas_frekvences_noteiksana\\Skanas_frekvences_noteiksana\\Skanas_frekvences_noteiksana.sch")
+    (date "6/13/2019 16:57:30")
     (tool "Eeschema (5.0.2)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -193,7 +193,8 @@
     (comp (ref U1)
       (value LM324N)
       (footprint Package_DIP:DIP-14_W7.62mm)
-      (libsource (lib Skanas_frekvences_noteiksana_amp) (part LM324N) (description ""))
+      (datasheet http://www.farnell.com/datasheets/2281534.pdf)
+      (libsource (lib Skanas_frekvences_noteiksana-rescue) (part LM324N-Skanas_frekvences_noteiksana_amp) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5CF05886))
     (comp (ref R6)
@@ -375,10 +376,10 @@
         (pin (num 26) (name PC3) (type 3state))
         (pin (num 27) (name PC4) (type 3state))
         (pin (num 28) (name PC5) (type 3state))))
-    (libpart (lib Skanas_frekvences_noteiksana_amp) (part LM324N)
+    (libpart (lib Skanas_frekvences_noteiksana-rescue) (part LM324N-Skanas_frekvences_noteiksana_amp)
       (fields
         (field (name Reference) U)
-        (field (name Value) LM324N))
+        (field (name Value) LM324N-Skanas_frekvences_noteiksana_amp))
       (pins
         (pin (num 1) (name ~) (type output))
         (pin (num 2) (name -) (type input))
@@ -409,8 +410,8 @@
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
     (library (logical MCU_Microchip_ATmega)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/MCU_Microchip_ATmega.lib"))
-    (library (logical Skanas_frekvences_noteiksana_amp)
-      (uri "C:/Users/amaro/Documents/Prakse_II/Skanas_frekvences_noteiksana - Copy/Skanas_frekvences_noteiksana/Skanas_frekvences_noteiksana_amp.lib"))
+    (library (logical Skanas_frekvences_noteiksana-rescue)
+      (uri "C:\\Users\\amaro\\Documents\\Prakse_II\\Skanas_frekvences_noteiksana - Copy\\Skanas_frekvences_noteiksana\\Skanas_frekvences_noteiksana/Skanas_frekvences_noteiksana-rescue.lib"))
     (library (logical Switch)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Switch.lib"))
     (library (logical pspice)

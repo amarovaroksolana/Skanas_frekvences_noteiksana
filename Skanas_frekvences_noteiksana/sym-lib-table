@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Skanas_frekvences_noteiksana_amp)(type Legacy)(uri "C:/Users/amaro/Documents/Prakse_II/Skanas_frekvences_noteiksana - Copy/Skanas_frekvences_noteiksana/Skanas_frekvences_noteiksana_amp.lib")(options "")(descr ""))
+  (lib (name Skanas_frekvences_noteiksana-rescue)(type Legacy)(uri ${KIPRJMOD}/Skanas_frekvences_noteiksana-rescue.lib)(options "")(descr ""))
 )
